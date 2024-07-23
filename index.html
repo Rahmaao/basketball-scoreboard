@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+                
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <div class="title">
+                <h3 class="mytitle">HOME</h3>
+            </div>
+            <div class="scores">
+                <h3 id="home-score" class="score"></h3>
+            </div>
+            <div class="points">
+                <button onclick="add1home()" class="btn1">+1</button>
+                <button onclick="add2home()" class="btn2">+2</button>
+                <button onclick="add3home()" class="btn3">+3</button>
+
+            </div>
+        </div>
+        <div class="middle">
+            <button onclick="clearhome()" class="clear">Clear Home</button>
+            <button onclick="clearguest()" class="clear">Clear Guest</button>
+        </div>
+        <div class="right">
+            <div class="title">
+                <h3 class="mytitle">GUEST</h3>
+            </div>
+            <div class="scores">
+                <h3 id="guest-score" class="score"></h3>
+            </div>
+            <div class="points">
+                <button onclick="add1guest()" class="btn1">+1</button>
+                <button onclick="add2guest()" class="btn2">+2</button>
+                <button onclick="add3guest()" class="btn3">+3</button>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+    
+</body>
+</html>
